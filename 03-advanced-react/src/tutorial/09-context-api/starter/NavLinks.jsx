@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import UserContainer from "./UserContainer";
 
-function NavLinks() {
+function NavLinks({ user, logout }) {
   return (
     <div className="nav-container">
       <li>
@@ -12,7 +12,8 @@ function NavLinks() {
         <a href="#">About</a>
       </li>
 
-      <UserContainer />
+      {/* This is level 2 of prop drilling */}
+      <UserContainer user={user} logout={logout} />
     </div>
   );
 }
