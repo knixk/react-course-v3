@@ -5,3 +5,7 @@ basically we are working on the contentAPI,
 use the App.jsx file to test out the stuff u build, okay?
 
 under advanced react tab
+......
+
+we're also working on creating the blog for braze
+let's do something on currents cool?
