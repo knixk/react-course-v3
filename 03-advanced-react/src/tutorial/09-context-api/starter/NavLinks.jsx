@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
+import UserContainer from "./UserContainer";
 
 function NavLinks() {
   return (
-    <div>
-      NavLinks
+    <div className="nav-container">
+      <li>
+        <a href="#">Home</a>
+      </li>
+
+      <li>
+        <a href="#">About</a>
+      </li>
+
+      <UserContainer />
     </div>
-  )
+  );
 }
 
-export default NavLinks
+export default NavLinks;
